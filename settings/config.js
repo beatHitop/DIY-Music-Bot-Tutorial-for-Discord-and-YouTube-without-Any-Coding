@@ -1,5 +1,5 @@
 module.exports = {
-  TOKEN: process.env.TOKEN || "",
+    TOKEN: process.env.TOKEN || "MTI0OTEzMzA0NDIwODYzMTkyMA.G30p62.c5VKHoG7UwuAaFIBkKfbF4HD88uQ6yEv6VbmRk",
   PREFIX: process.env.PREFIX || ",",
   embed: {
     color: process.env.color || "#220f80",
@@ -73,10 +73,10 @@ module.exports = {
   links: {
     inviteURL:
       process.env.inviteURL ||
-      `https://discord.gg/animeverse`,
-    DiscordServer: process.env.DiscordServer || `https://discord.gg/animeverse`,
-    VoteURL: process.env.VoteURL || `https://discord.gg/animeverse`,
-    Website: `https://discord.gg/animeverse`,
+      `https://discord.com/invite/TgEbfpHYDn`,
+    DiscordServer: process.env.DiscordServer || `https://discord.com/invite/TgEbfpHYDn`,
+    VoteURL: process.env.VoteURL || `https://discord.com/invite/TgEbfpHYDn`,
+    Website: `https://discord.com/invite/TgEbfpHYDn`,
   },
   options: {
     embedFooter: true,
@@ -98,6 +98,6 @@ module.exports = {
   ],
   slash: {
     global: true,
-    guildID: process.env.GUILD_ID || "1219657567060496394", // for slash command
+        guildID: process.env.GUILD_ID || "1250354033802084416", // for slash command
   },
 };
